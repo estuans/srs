@@ -54,8 +54,8 @@ echo -n "Installing required Ubuntu packages... "
 #Use JRE 6u45 (http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html#jre-6u45-oth-JPR)
 
 sudo apt-get install build-essential checkinstall
-sudo apt-get install libldap-2.4-2 libmotif3 module-assistant tk8.4 \
-                     ldap-utils nscd gawk iputils-ping ksh unzip libgdbm3 \
+sudo apt-get install libldap-common libmotif-common module-assistant tk8.6 \
+                     ldap-utils nscd gawk iputils-ping ksh unzip libgdbm-dev \
                      libx11-6 libfreetype6 libsasl2-2 libxt6 zlib1g devscripts \
                      xfonts-base atftpd xfonts-100dpi xfonts-75dpi xfonts-cyrillic wget ed \
                      x11-xserver-utils tcsh alien dnsutils unzip module-assistant alien
